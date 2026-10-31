@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f2f6;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 55px 30px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+    margin-bottom: 10px;
+}
+
+/* Assignment 01 */
+
+.assignment-one {
+    min-height: 650px;
+}
+
+.assignment-one h1 {
+    color: blue;
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+
+.batch {
+    color: green;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.assignment-one p {
+    font-size: 23px;
+    margin: 35px 0;
+    color: #111;
+}
+
+.assignment-title {
+    color: #e32636;
+    font-size: 32px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+/* Assignment 02 */
+
+.assignment-two {
+    min-height: 320px;
+    padding: 30px;
+}
+
+.assignment-two h2 {
+    color: #44546a;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.assignment-two h3 {
+    color: #44546a;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.assignment-two p {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #315d91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #21446e;
+}
+
+.result {
+    background: #e8f0f5;
+    color: #555;
+    text-align: left;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+    min-height: 65px;
+    font-size: 14px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .card {
+        padding: 35px 15px;
+    }
+
+    .assignment-one {
+        min-height: auto;
+    }
+
+    .assignment-one h1 {
+        font-size: 30px;
+    }
+
+    .batch {
+        font-size: 28px;
+    }
+
+    .assignment-one p {
+        font-size: 17px;
+        margin: 25px 0;
+    }
+
+    .assignment-title {
+        font-size: 25px;
+    }
+
+    .assignment-two h2 {
+        font-size: 24px;
+    }
+}
